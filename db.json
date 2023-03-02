@@ -1,0 +1,51 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "బహుబలి",
+        "image": "https://example.com/baahubali.jpg",
+        "rating": 4.5,
+        "reviews": [
+          {
+            "id": 1,
+            "username": "రామ్",
+            "review": "ఈ సినిమా చాలా మంచిది. గ్రాఫిక్స్ అద్భుతం మరియు స్టోరీ కూడా మంచిది.",
+            "rating": 5
+          },
+          {
+            "id": 2,
+            "username": "శ్రీనివాస్",
+            "review": "అద్భుతమైన సినిమా. గ్రాఫిక్స్ చాలా మంచిది.",
+            "rating": 4.5
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "రుద్రమదేవి",
+        "image": "https://example.com/rudhramadevi.jpg",
+        "rating": 3.8,
+        "reviews": [
+          {
+            "id": 1,
+            "username": "వెంకటేశ్",
+            "review": "బాగా అన్ని అంశాలు ఉన్న సినిమా. కమల్ హాసన్ బాగా చేసారు.",
+            "rating": 4
+          },
+          {
+            "id": 2,
+            "username": "లక్ష్మి",
+            "review": "ప్రత్యేక అంశాలు కనబడిన సినిమా. మళ్లీ చూస్తాను.",
+            "rating": 3.5
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "అర్జున్ రెడ్డి",
+        "image": "https://example.com/arjunreddy.jpg",
+        "rating": 4
+         
+        }
+    ]
+}  

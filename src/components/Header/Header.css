@@ -1,0 +1,77 @@
+.header {
+  position: absolute;
+  width: 53%;
+  height: 476px;
+  top: 111px;
+  background: linear-gradient(
+    90deg,
+    #080d1d 60.5%,
+    #080d1d 65.83%,
+    #080d1d 72.06%,
+    rgba(10, 17, 38, 0.794092) 78.11%,
+    rgba(21, 34, 75, 0) 96.34%
+  );
+}
+
+img {
+  width: 63%;
+  top: 111px;
+  height: 586px;
+  position: relative;
+  float: right;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.header-content {
+  position: absolute;
+  /* width: 153px;
+  height: 42px;
+  left: 153px;
+  top: 234px; */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 10;
+  font-size: 1rem;
+  display: block;
+  /* line-height: 42px; */
+
+  color: #ffffff;
+}
+
+.movie-name {
+  position: absolute;
+  margin-top: 8rem;
+  margin-left: 12.8rem;
+}
+
+.movie-content {
+  position: absolute;
+  width: 359px;
+  height: 114px;
+  left: 13rem;
+  top: 10.5rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.rating {
+  position: absolute;
+  width: 101px;
+  height: 23px;
+  top: 20rem;
+  left: 13rem;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
