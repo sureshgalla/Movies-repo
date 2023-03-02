@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css";
-//import SearchIcon from "@material-ui/icons/Search";
+import { SearchOutlined } from "@ant-design/icons";
 
 const Navbar = () => {
   return (
@@ -12,7 +12,7 @@ const Navbar = () => {
         placeholder="Search Movies...."
       />
       <button className="search-button">
-        {/* <SearchIcon className="search-icon" /> */}
+        <SearchOutlined className="search-icon" />
       </button>
       <div className="links">
         <h1 className="link-style">Home</h1>
