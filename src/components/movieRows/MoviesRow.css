@@ -1,0 +1,150 @@
+/* movies row img */
+.movies-row-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.movies-container {
+  position: relative;
+  width: 212px;
+  height: 315px;
+  background: #ffffff;
+  border: 0.3px solid rgba(94, 95, 97, 0.4);
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+/* movie rows img */
+.movie-row-img {
+  width: 212px;
+  height: 227px;
+}
+
+/* like icon */
+.movie-row-like {
+  position: absolute;
+  margin-right: 115px;
+  right: 58px;
+  bottom: 59px;
+  font-size: 20px;
+  color: #ce0000;
+}
+
+/* movies row percentage */
+.movies-row-percentage {
+  position: absolute;
+  width: 23px;
+  height: 14px;
+  right: 143px;
+  bottom: 57px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5e5f61;
+}
+
+/* precentsge after the line */
+.movies-row-line-1 {
+  position: absolute;
+  width: 30px;
+  height: 0px;
+  border: 1px solid rgba(94, 95, 97, 0.4);
+  transform: rotate(90deg);
+  bottom: 66px;
+  right: 116px;
+}
+
+/* movies row ott icons  */
+.movies-row-icon {
+  position: absolute;
+  width: 30px;
+  height: 33px;
+  right: 91px;
+  bottom: 49px;
+}
+
+/* movies generation */
+.movies-row-gener {
+  position: absolute;
+  width: 70px;
+  height: 24px;
+  left: 137px;
+  bottom: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  color: #5e5f61;
+}
+
+/* movie row line-2 */
+.movies-row-line-2 {
+  position: absolute;
+  width: 32px;
+  height: 0px;
+  top: 248px;
+  left: 117px;
+  border: 1px solid rgba(94, 95, 97, 0.4);
+  transform: rotate(90deg);
+}
+
+/* movie row border under the like, percentsge, icon, gener */
+.movie-row-line-3 {
+  position: absolute;
+  width: 206px;
+  height: 0px;
+  left: 2px;
+  top: 272px;
+  border: 1px solid rgba(94, 95, 97, 0.4);
+}
+
+/* movie row title under the border */
+.movies-row-title {
+  position: absolute;
+  width: 146px;
+  height: 14px;
+  left: 34px;
+  top: 283px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5e5f61;
+}
+
+/* upcomeing movies page row title */
+.upcomeingMovies-row-title {
+  position: absolute;
+  width: 80px;
+  height: 16px;
+  left: 97px;
+  top: 238px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #5e5f61;
+}
+
+/* upcomeing movies row release date  */
+.upcomeingMovies-release-date {
+  position: absolute;
+  width: 165px;
+  height: 16px;
+  left: 20px;
+  top: 288px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5e5f61;
+}

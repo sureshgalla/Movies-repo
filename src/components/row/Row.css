@@ -1,0 +1,91 @@
+/* row container */
+.row-container {
+  position: relative;
+  width: 1140px;
+  height: 316px;
+  left: 200px;
+  top: 155px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/* view all text style */
+.row-view-all {
+  position: absolute;
+  width: 57px;
+  height: 19px;
+  left: 1069px;
+  top: 14px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #5e5f61;
+}
+
+/* row type text style like{tollywood, bollywood} */
+.row-type {
+  position: absolute;
+  width: 110px;
+  height: 28px;
+  left: 28px;
+  top: 9px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #5e5f61;
+}
+
+/* row images flex  */
+.row-movie-img {
+  width: 212px;
+  height: 227px;
+  margin-top: 49px;
+
+  border-radius: 5px 5px 0px 0px;
+  padding-right: 20px;
+}
+
+/* row like icon */
+.row-like-icon {
+  font-size: 20px;
+  color: #ce0000;
+}
+
+/* row rating perecentage */
+.row-rating-percentage {
+  border: none;
+}
+
+/* row title */
+.row-movie-title {
+  width: 131px;
+  height: 38px;
+
+  margin-top: 6px;
+
+  font-family: "Roboto";
+  margin-right: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 14px;
+  color: #5e5f61;
+
+  float: right;
+}
+
+/* row space for top */
+.row-top {
+  margin-top: 50px;
+}

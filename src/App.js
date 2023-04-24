@@ -1,47 +1,37 @@
 import "./App.css";
-import Header from "./components/Header/Header";
-import Navbar from "./components/Navbar/NavBar";
-
 import { Provider } from "react-redux";
+import MovieProvider from "./components/movieProvider/MovieProvider";
 import store from "./redux/store";
-
-//import { Gallery } from "react-grid-gallery";
-
-// const images = [
-//   {
-//     src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-//     width: 320,
-//     height: 174,
-//     isSelected: true,
-//     caption: "After Rain (Jeshu John - designerspics.com)",
-//   },
-/* <SearchOutlined /> */
-//   {
-//     src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-//     width: 320,
-//     height: 212,
-//     tags: [
-//       { value: "Ocean", title: "Ocean" },
-//       { value: "People", title: "People" },
-//     ],
-//     alt: "Boats (Jeshu John - designerspics.com)",
-//   },
-
-//   {
-//     src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-//     width: 320,
-//     height: 212,
-//   },
-// ];
+import Home from "./components/Home/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import MoviesInTheaters from "./components/movies/moviesInTheaters/MoviesInTheaters";
+import MoviesInHome from "./components/movies/moviesInHome/MoviesInHome";
+import Shows from "./components/shows/Shows";
+import OpeningThisWeek from "./components/movies/opening-this-week/OpeningThisWeek";
+import UpComeingMovies from "./components/movies/up-coming-movies/UpComeingMovies";
+import Languages from "./components/languages/Languages";
 
 function App() {
   return (
     <Provider store={store}>
-      <div className="App">
-        <Navbar />
-        <Header />
-        {/* <Gallery images={images} /> */}
-      </div>
+      <MovieProvider>
+        <div className="App">
+          <Router>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route
+                path="/movies-in-theaters"
+                element={<MoviesInTheaters />}
+              />
+              <Route path="/movies-in-home" element={<MoviesInHome />} />
+              <Route path="/shows" element={<Shows />} />
+              <Route path="/opening-this-week" element={<OpeningThisWeek />} />
+              <Route path="/up-comeing-movies" element={<UpComeingMovies />} />
+              <Route path="/languages" element={<Languages />} />
+            </Routes>
+          </Router>
+        </div>
+      </MovieProvider>
     </Provider>
   );
 }

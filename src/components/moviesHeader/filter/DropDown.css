@@ -1,0 +1,67 @@
+/* child dropdown container */
+.dropdown {
+  display: none;
+  padding: 0px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* dropdown display */
+.dropdown.show {
+  display: block;
+}
+
+/* lanugeges child dropdown container */
+.dropdown.Languages {
+  width: 119px;
+  position: absolute;
+  height: 261px;
+  left: 114px;
+  top: -5px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+/* geners child dropdown container */
+.dropdown.Gener {
+  position: absolute;
+  width: 119px;
+  height: 285px;
+  left: 114px;
+  top: 0px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+/* month child dropdown container */
+.dropdown.Month {
+  position: absolute;
+  width: 119px;
+  height: 377px;
+  left: 114px;
+  top: 0px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+/* format child dropdown container */
+.dropdown.Format {
+  position: absolute;
+  width: 119px;
+  height: 107px;
+  left: 114px;
+  top: 0px;
+
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+/* city child dropdown container */
+.dropdown.City {
+  position: absolute;
+  width: 119px;
+  height: 285px;
+  left: 114px;
+  top: 0px;
+  background: #ffffff;
+  border-radius: 5px;
+}

@@ -1,0 +1,122 @@
+.trailer-container {
+  position: absolute;
+  width: 1519px;
+  height: 310px;
+  top: 2481px;
+  background: #1d3656;
+  box-shadow: 0px 0px 2px rgb(0 0 0 / 25%);
+  box-sizing: border-box;
+}
+
+.video-box-container {
+  position: relative;
+  width: 323px;
+  height: 235px;
+  top: 37px;
+  background: #0b1124;
+  border-radius: 5px;
+  margin: 0px 0px 0px 44px;
+}
+
+.trailer-imge {
+  position: absolute;
+  width: 100.94px;
+  height: 115.92px;
+  left: 3px;
+  top: 2px;
+  border-radius: 5px;
+}
+
+.trailer-video {
+  position: absolute;
+  width: 216px;
+  height: 116px;
+  left: 105px;
+  top: 3px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
+
+.trailer-content-container {
+  position: absolute;
+  width: 319px;
+  height: 112px;
+  left: 2px;
+  top: 121px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.hero-name {
+  position: absolute;
+  width: 87px;
+  height: 14px;
+  left: 11.25px;
+  top: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #15224b;
+  text-align: left;
+}
+
+.rate-movie {
+  position: absolute;
+  width: 60px;
+  height: 14px;
+  left: 189.6px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #567aa7;
+}
+
+.movie-title {
+  position: absolute;
+  width: 200px;
+  height: 19px;
+  left: 10px;
+  top: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5e5f61;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-plot {
+  position: absolute;
+  width: 300px;
+  height: 56px;
+  left: 11px;
+  top: 39px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #5e5f61;
+  text-align: justify;
+}
+
+.play-icon {
+  position: absolute;
+  left: 61.69%;
+  right: 57.66%;
+  top: 19.13%;
+  bottom: 16.11%;
+  color: white;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 23px;
+}

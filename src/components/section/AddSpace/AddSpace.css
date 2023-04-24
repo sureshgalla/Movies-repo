@@ -1,0 +1,41 @@
+.add-space-container {
+  position: absolute;
+  width: 294px;
+  height: 758px;
+  left: 1047px;
+  top: 1179px;
+  background: #ccc8c8;
+  box-shadow: 0px 0px 2px rgb(0 0 0 / 15%);
+  border-radius: 5px;
+}
+
+.icon-container {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 233px;
+  top: 24px;
+  background: #d9d9d9;
+  border-radius: 100%;
+}
+
+.close-icon {
+  position: absolute;
+  right: 28.71%;
+  top: 31.18%;
+  padding: 0px;
+}
+
+.add-spaxe-text {
+  position: absolute;
+  width: 264px;
+  height: 28px;
+  left: 11px;
+  top: 334px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #5e5f61;
+}

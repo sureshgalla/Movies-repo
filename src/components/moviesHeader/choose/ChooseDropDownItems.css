@@ -1,0 +1,61 @@
+.choose-dropdown-container {
+  position: relative;
+  width: 184px;
+  height: 81px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.choose-dropdown-item-1 {
+  position: absolute;
+  width: 131px;
+  height: 19px;
+  left: 25px;
+  top: 11px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5e5f61;
+}
+
+.choose-dropdown-item-center-border {
+  position: absolute;
+  width: 155px;
+  height: 0px;
+  left: 13px;
+  top: 38px;
+
+  border: 0.5px solid rgba(94, 95, 97, 0.5);
+}
+
+.choose-dropdown-item-2 {
+  position: absolute;
+  width: 128px;
+  height: 19px;
+  left: 26px;
+  top: 46px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #5e5f61;
+}
+
+/* upcoming movies choose dropdown placement set */
+.upcomingMovies-choose-dropdown {
+  position: absolute;
+  width: 185px !important;
+  height: 76px !important;
+  left: -9rem;
+  top: 0px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,244 @@
+/* footer container */
+.footer-container {
+  position: relative;
+  background-color: #525252;
+  height: 300px;
+  width: 94.9375rem;
+  top: 137.8rem;
+  left: 0px;
+  display: flex;
+}
+
+/* footer help text */
+.help {
+  position: absolute;
+  color: #fefefe;
+  width: 33px;
+  left: 218px;
+  font-size: 16px;
+  font-weight: 400;
+  top: 3rem;
+  font-family: "Roboto";
+}
+
+/* footer About Movie rating text */
+.about-movie {
+  position: absolute;
+  color: #fefefe;
+  width: 135px;
+  left: 218px;
+  font-size: 16px;
+  font-weight: 400;
+  top: 5rem;
+  font-family: "Roboto";
+}
+
+/* footer What's the Movie rating? text */
+.what-movie-rating {
+  position: absolute;
+  color: #fefefe;
+  width: 176px;
+  left: 218px;
+  font-size: 16px;
+  font-weight: 400;
+  top: 7rem;
+  font-family: "Roboto";
+}
+
+/* footer criics submission text */
+.criics-submission {
+  position: absolute;
+  color: #fefefe;
+  width: 176px;
+  left: 659px;
+  font-size: 16px;
+  font-weight: 400;
+  top: 3rem;
+  font-family: "Roboto";
+}
+
+/* footext licensing text */
+.licensing {
+  position: absolute;
+  color: #fefefe;
+  width: 176px;
+  left: 629px;
+  font-size: 16px;
+  font-weight: 400;
+  top: 5rem;
+  font-family: "Roboto";
+}
+
+/* footer advertise text */
+.advertise {
+  position: absolute;
+  color: #fefefe;
+  width: 176px;
+  left: 656px;
+  font-size: 16px;
+  font-weight: 400;
+  top: 7rem;
+  font-family: "Roboto";
+}
+
+/* footer carrer text*/
+.carrer {
+  position: absolute;
+  color: #fefefe;
+  width: 176px;
+  left: 619px;
+  font-size: 16px;
+  font-weight: 400;
+  top: 9rem;
+  font-family: "Roboto";
+}
+
+/* join news letter text */
+.news-letter {
+  position: absolute;
+  top: 35px;
+  font-family: "Roboto";
+  width: 175px;
+  height: 23px;
+  left: 1090px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fefefe;
+}
+
+/* footer join news letter under text */
+.content {
+  position: absolute;
+  width: 280px;
+  height: 38px;
+  left: 1042px;
+  top: 5rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #fefefe;
+}
+
+/* foooter news letter button */
+.button {
+  position: absolute;
+  left: 1091px;
+  top: 10rem;
+  width: 176px;
+  height: 31px;
+  background: #92b5e0;
+  border-radius: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fefefe;
+  border-style: none;
+}
+
+/* footer copy right text */
+.copy-right {
+  position: absolute;
+  color: #fefefe;
+  width: 310px;
+  left: 218px;
+  font-size: 16px;
+  font-weight: 400;
+  top: 15rem;
+  font-family: "Roboto";
+}
+
+/* footer policies text */
+.policies {
+  position: absolute;
+  color: #fefefe;
+  width: 310px;
+  left: 930px;
+  font-size: 16px;
+  font-weight: 400;
+  top: 15rem;
+  font-family: "Roboto";
+}
+
+/* footer terms text */
+.terms {
+  position: absolute;
+  color: #fefefe;
+  width: 310px;
+  left: 1107px;
+  font-size: 16px;
+  font-weight: 400;
+  top: 15rem;
+  font-family: "Roboto";
+}
+
+/* footer divider line */
+.divider {
+  position: absolute;
+  color: #fefefe;
+  left: 1164px;
+  font-size: 24px;
+  font-weight: 400;
+  top: 244px;
+  font-family: "Roboto";
+}
+
+/* movies in theater footer container*/
+.moviein-theater-footer-container {
+  position: relative;
+  background-color: #525252;
+  height: 300px;
+  width: 94.9375rem;
+  top: 4rem;
+  display: flex;
+}
+
+/* movies in theater footer critics container */
+.movie-footer-critics-container {
+  position: absolute;
+  right: 105rem;
+}
+
+/* movies in theater footer news letter container */
+.movie-footer-newsletter-container {
+  position: absolute;
+  right: 112rem;
+}
+
+/* movies in theater footer follow us text */
+.footer-followus {
+  position: absolute;
+  width: 88px;
+  height: 23px;
+  right: 15rem;
+  top: 3rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fefefe;
+}
+
+/* movies footer join the news letter button */
+.movies-footer-button {
+  position: absolute;
+  left: 1091px;
+  top: 10rem;
+  width: 176px;
+  height: 31px;
+  background: #ce0000;
+  border-radius: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fefefe;
+  border-style: none;
+}

@@ -1,0 +1,21 @@
+/*footer total icons */
+.icon-wrapper {
+  position: absolute;
+  left: 194px;
+  right: 5px;
+  bottom: 51px;
+}
+
+/* movies in theater footer total icons */
+.movies-icon-wrapper {
+  position: absolute;
+  top: 6rem;
+  color: white;
+  right: 10rem;
+}
+
+/* footer single icon styles */
+.custom-icon {
+  font-size: 30px;
+  margin-right: 13px;
+}

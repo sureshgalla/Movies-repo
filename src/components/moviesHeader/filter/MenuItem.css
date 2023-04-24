@@ -1,0 +1,33 @@
+/* parent{langusage, gener, month, format, city} items  */
+.menu-items {
+  position: relative;
+  width: 98px;
+  height: 19px;
+  left: 9px;
+  top: 0px;
+  bottom: 0px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5e5f61;
+
+  padding: 5px 0px 7px 0px;
+  border-bottom: 0.5px solid rgba(94, 95, 97, 0.5);
+  text-align: center;
+}
+
+/* parent item last child border none*/
+.menu-items:last-child {
+  border-bottom: none !important;
+}
+
+/* parent items are in buttons so button none style */
+.menu-items button {
+  color: inherit;
+  font-size: inherit;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 100%;
+}

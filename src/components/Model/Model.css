@@ -1,0 +1,114 @@
+/* modal container  */
+.my-custom-modal .ant-modal-content {
+  height: 270px;
+  border-radius: 20px;
+}
+
+/* modal  header background*/
+.my-custom-modal .my-modal-header {
+  width: 422px;
+  height: 81px;
+  margin-top: -39px;
+  margin-left: -24px;
+
+  background-image: url("./modal-background-blue.png");
+}
+
+/* modal news-letter */
+.my-modal-header .modal-news-letter {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 18px;
+  padding-top: 19px;
+}
+
+/* modal close button */
+.my-custom-modal .ant-modal-close-x {
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+/* modal subscribe text */
+.my-custom-modal .my-modal-content {
+  width: 266px;
+  height: 24px;
+  margin-left: 52px;
+  margin-top: 29px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #5e5f61;
+}
+
+/* modal input border */
+.input-wrapper .ant-input {
+  border-radius: 30px;
+}
+
+/* modal input left side border */
+.input-wrapper .ant-input-group-addon {
+  border-radius: 30px;
+}
+
+/* modal subscribe button */
+.subscribe-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fefefe;
+  background: #92b5e0;
+  border-radius: 8px;
+
+  margin-left: 119px;
+  margin-top: 26px;
+}
+
+/* movies in theater modal header red background */
+.my-custom-modal .movie-modal-header {
+  width: 422px;
+  height: 81px;
+  margin-top: -39px;
+  margin-left: -24px;
+
+  background-image: url("./modal-background-red.png");
+}
+
+/* movoes in theater modal news letter text */
+.movie-modal-header .movie-modal-news-letter {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 18px;
+  padding-top: 19px;
+}
+
+/* movies in theater modal subscribe now button */
+.movies-subscribe-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fefefe;
+  background: #ed4d4d;
+
+  border-radius: 8px;
+
+  margin-left: 119px;
+  margin-top: 26px;
+}

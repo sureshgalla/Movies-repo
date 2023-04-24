@@ -1,0 +1,66 @@
+.login-modal .ant-modal-content {
+  box-sizing: border-box;
+
+  width: 502px;
+  height: 460px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  border: 1px solid rgba(94, 95, 97, 0.5);
+  border-radius: 26px;
+}
+
+/* login modal header */
+.login-modal .login-header {
+  width: 502px;
+  height: 108px;
+  background-image: url("../Model/modal-background-red.png");
+  background-repeat: round;
+  margin-left: -25px;
+  margin-top: -34px;
+}
+
+/* model header text get started with movie rating*/
+.login-header .login-header-text {
+  position: relative;
+  color: #ffffff;
+  width: 147px;
+  height: 46px;
+  left: 177px;
+  top: 22px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+}
+
+/* modal cancel button */
+.login-modal .ant-modal-close-x {
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  color: white;
+}
+
+/* login- content paragraph */
+.login-content {
+  position: relative;
+  width: 318px;
+  height: 28px;
+  left: 71px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #5e5f61;
+}
+
+/* links a herf */
+.login-content a {
+  text-decoration: underline;
+  color: black;
+}

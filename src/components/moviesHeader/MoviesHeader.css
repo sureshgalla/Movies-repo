@@ -1,0 +1,141 @@
+/* movies in theaters text style */
+.title {
+  position: absolute;
+  width: 354px;
+  height: 28px;
+  left: 200px;
+  top: 155px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #5e5f61;
+  text-align-last: left;
+}
+
+/* choose dropdown positon and styles  */
+.choose-dropdown {
+  position: absolute;
+  width: 220px !important;
+  height: 30px !important;
+  left: 69rem;
+  top: 155px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* choose text border and background removed and fixed position with styles*/
+.choose-dropdown .ant-btn-compact-first-item {
+  border: none;
+  background: none;
+  position: absolute;
+  width: 55px;
+  height: 19px;
+  top: 2px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5e5f61;
+}
+
+/* choose down icon border and background remove and set border left */
+.choose-dropdown .ant-btn-compact-last-item {
+  border: none;
+  background: none;
+  left: 178px;
+  border-left: 0.6px solid #5e5f61;
+  top: 2px;
+  opacity: 0.5;
+  bottom: 5px;
+}
+
+/* down icon height width and that border also */
+.choose-dropdown .ant-btn.ant-btn-icon-only {
+  position: absolute;
+  width: 40px;
+  height: 26px;
+}
+
+/* .ant-dropdown.ant-dropdown-menu {
+  /* position: relative; */
+/* margin: 0;
+  position: relative;
+  width: 184px !important;
+  height: 81px !important;
+  left: 2px;
+  top: 0px;
+  background: #ffffff;
+  border-radius: 5px;
+} */
+
+/* filterd languge opening this week movies page first one */
+.upcomeingMovies-filterd-language {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5px 21px;
+  gap: 10px;
+  left: 200px;
+  top: 218px;
+  background: #ffffff;
+  border: 0.8px solid #5e5f61;
+  border-radius: 5px;
+  width: 48px;
+  height: 19px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5e5f61;
+}
+
+/* openig this week  movies filterd month second one in opeaning this week movies page */
+.upcomeingMovies-filterd-month {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5px 21px;
+  gap: 10px;
+  left: 314px;
+  top: 218px;
+  background: #ffffff;
+  border: 0.8px solid #5e5f61;
+  border-radius: 5px;
+  width: 27px;
+  height: 19px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5e5f61;
+}
+
+/* opening this week movies filterd format third one in the opening this page */
+.upcomeingMovies-filterd-format {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 5px 21px;
+  gap: 10px;
+  left: 409px;
+  top: 218px;
+  background: #ffffff;
+  border: 0.8px solid #5e5f61;
+  border-radius: 5px;
+  width: 20px;
+  height: 19px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5e5f61;
+}

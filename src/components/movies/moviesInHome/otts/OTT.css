@@ -1,0 +1,46 @@
+/* ott icons scroll width */
+.ott-container {
+  display: flex;
+  width: 1140px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin-left: 200px;
+  z-index: 1;
+}
+
+/* ott icons scroll bar none */
+.ott-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* ott icons imgs */
+.ott-img {
+  width: 100px;
+  height: 110px;
+  margin-right: 23px;
+  margin-top: 200px;
+  border-radius: 50%;
+  /* float: left; */
+  /* transition: transform 450ms; */
+}
+
+/* .ott-img:hover {
+    transform: scale(1.08);
+  } */
+
+/* ott icons title */
+.ott-title {
+  width: 92px;
+  height: 38px;
+  margin-right: 24px;
+  /* margin-top: 200px; */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #5e5f61;
+}

@@ -2,50 +2,166 @@
     "movies": [
       {
         "id": 1,
-        "title": "బహుబలి",
-        "image": "https://example.com/baahubali.jpg",
-        "rating": 4.5,
-        "reviews": [
-          {
-            "id": 1,
-            "username": "రామ్",
-            "review": "ఈ సినిమా చాలా మంచిది. గ్రాఫిక్స్ అద్భుతం మరియు స్టోరీ కూడా మంచిది.",
-            "rating": 5
-          },
-          {
-            "id": 2,
-            "username": "శ్రీనివాస్",
-            "review": "అద్భుతమైన సినిమా. గ్రాఫిక్స్ చాలా మంచిది.",
-            "rating": 4.5
-          }
-        ]
+        "title": "Ori Devuda",
+        "image": "http://image.tmdb.org/t/p/w500//3sdQDyUYDpSFIGd9UetguWV4yRY.jpg",
+        "rating": 4.5 
       },
       {
         "id": 2,
-        "title": "రుద్రమదేవి",
-        "image": "https://example.com/rudhramadevi.jpg",
-        "rating": 3.8,
-        "reviews": [
-          {
-            "id": 1,
-            "username": "వెంకటేశ్",
-            "review": "బాగా అన్ని అంశాలు ఉన్న సినిమా. కమల్ హాసన్ బాగా చేసారు.",
-            "rating": 4
-          },
-          {
-            "id": 2,
-            "username": "లక్ష్మి",
-            "review": "ప్రత్యేక అంశాలు కనబడిన సినిమా. మళ్లీ చూస్తాను.",
-            "rating": 3.5
-          }
-        ]
+        "title": "Macharla niyojakavargam",
+        "image": "http://image.tmdb.org/t/p/w500//ckSnScdINMWhVyCEBsCgtYUlXvq.jpg",
+        "rating": 3.8
       },
       {
         "id": 3,
-        "title": "అర్జున్ రెడ్డి",
-        "image": "https://example.com/arjunreddy.jpg",
+        "title": "Pop Corn",
+        "image": "https://static.toiimg.com/photo/97478583.cms",
         "rating": 4
-         
         }
+    ],
+    "now_playing":[
+      {
+        "id":1,
+        "title":"Macharla niyojakavargam",
+        "img":"https://akamaividz2.zee5.com/image/upload/w_504,h_756,c_scale,f_webp,q_auto:eco/resources/0-0-1z5262284/portrait/1170x658withlogo6477e0228a784cbe930fef9abe49d827.jpg",
+        "rating":3.8
+      },
+      {
+        "id":2,
+        "title":"Pop Corn",
+        "img":"https://static.toiimg.com/photo/97478583.cms",
+        "rating":3.8
+      },
+      {
+        "id":3,
+        "title":"Chup",
+        "img":"https://static.toiimg.com/photo/94338433.cms?imgsize=13388",
+        "rating":3.8
+      }
+    ],
+    "most_popular_movies":[
+      {
+        "id":1,
+        "title":"Bimbisara",
+        "img":"https://m.media-amazon.com/images/M/MV5BY2NlNDNjMTgtNThmNC00YzA4LThiMGEtOGZlODI1MmMyMDMxXkEyXkFqcGdeQXVyMTIyNzY0NTMx._V1_.jpg",
+        "rating":4.8
+      },
+      {
+        "id":2,
+        "title":"Ramsetu",
+        "img":"https://cdn.123telugu.com/content/wp-content/uploads/2022/10/RamSetu-m.jpg",
+        "rating":4.3
+      },
+      {
+        "id":3,
+        "title":"Akhanda",
+        "img":"https://www.indiaherald.com/Assets/ArticleUpload/202112211126717_Akhandacollections-1638414495.jpg",
+        "rating":4.7
+      }
+    ],
+    "up_coming_movies":[
+      {
+        "id":1,
+        "title":"Adipursh",
+        "img":"https://m.media-amazon.com/images/M/MV5BNmM5NzQ5ZWItYmU2MS00MzNmLWI5ZTEtMmYwYjViNjI3ZGQxXkEyXkFqcGdeQXVyMTE0MTY2Mzk2._V1_FMjpg_UX1000_.jpg",
+        "rating":4.8
+      },
+      {
+        "id":2,
+        "title":"Tanhaji",
+        "img":"https://filmfare.wwmindia.com/thumb/content/2020/jan/tanhaji31578560651.jpg?width=1200&height=900",
+        "rating":4.3
+      },
+      {
+        "id":3,
+        "title":"Avatar",
+        "img":"https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_FMjpg_UX1000_.jpg",
+        "rating":4.7
+      }
+    ],
+    "popular_web_series":[
+      {
+        "id":1,
+        "title":"Rekhi",
+        "img":"https://static.toiimg.com/photo/msid-92249103/Recce.jpg?92249103",
+        "rating":7.2
+      },
+      {
+        "id":2,
+        "title":"B.Tech",
+        "img":"https://m.media-amazon.com/images/M/MV5BMzA1ODQzZGEtNjU0OC00MmM4LWIyZGMtMGI1Y2I1ZWE5ZWI2XkEyXkFqcGdeQXVyOTU1NTA2MzQ@._V1_.jpg",
+        "rating":8.7
+      },
+      {
+        "id":3,
+        "title":"Shoot Out",
+        "img":"https://m.media-amazon.com/images/M/MV5BMTQ4YTUzMGItZTI1ZS00ODFhLWJmYWUtN2M2OGZiZWRjZjMwXkEyXkFqcGdeQXVyMTIzMzg0MTM2._V1_.jpg",
+        "rating":6.2
+      }
+    ],
+    "trailer_content":[
+      {
+        "id":1,
+        "hero_img":"https://w0.peakpx.com/wallpaper/271/559/HD-wallpaper-thalapathy-vijay-master-vijay-thalapathy.jpg",
+        "movie_video":"https://i.ytimg.com/vi/JLWR_NU7fa0/maxresdefault.jpg",
+        "video_link":"https://youtu.be/TnWnXBWzmkc",
+        "heroName":"Vijay Thalapathi",
+        "title":"Vaarasudu",
+        "rating":4.4,
+        "plot":"Vijay Rajendran is a happy to-go lucky man. Things change when his foster father dies unexpectedly. Vijay Rajendran is a happy to-go lucky man. Things change when his foster father dies unexpectedly."
+      },
+      {
+        "id":2,
+        "hero_img":"https://media.gettyimages.com/id/106399426/photo/actor-shah-rukh-khan-attends-the-my-name-is-khan-premiere-during-the-5th-international-rome.jpg?s=612x612&w=gi&k=20&c=U78M2hZ0-GEBuLgURvWwzNL_1bHrNCdLHtv1atEyS3M=",
+        "movie_video":"https://www.thetelugufilmnagar.com/wp-content/uploads/2023/01/Pathaan-Telugu-Movie-Review.webp",
+        "video_link":"https://youtu.be/4xl9KfUg8Lc",
+        "heroName":"Shah Ruk Khan",
+        "title":"Pathaan",
+        "rating":3.9,
+        "plot":"An Indian spy battles against the leader of a gang of mercenaries who have a heinous plot for his homeland. An Indian spy battles against the leader of a gang of mercenaries who have a heinous plot for his homeland."
+      },
+      {
+        "id":3,
+        "hero_img":"https://www.thewikifeed.com/wp-content/uploads/2020/08/ketika-sharma-11.jpg",
+        "movie_video":"https://ottraja.com/wp-content/uploads/2022/03/Ranga-Ranga-Vaibhavanga-Movie-OTT-Rights.webp",
+        "video_link":"https://youtu.be/gaSS6Qm-pj4",
+        "heroName":"Ketika sharma",
+        "title":"Ranga ranga vaibhavanga",
+        "rating":4.6,
+        "plot":"An unfortunate incident sparks a gradual discord between two childhood friends. However, fate brings them together when they enroll in the same medical college, a union that later blooms into love."
+      },
+      {
+        "id":4,
+        "hero_img":"https://assets-in.bmscdn.com/iedb/artist/images/website/poster/large/ravi-teja-1848-1647947897.jpg",
+        "movie_video":"https://www.telugubulletin.com/wp-content/uploads/2022/12/Dhamaka_Review.jpg",
+        "video_link":"https://youtu.be/zLPjDE8Lyf4",
+        "heroName":"Ravi Teja",
+        "title":"Dhamaka",
+        "rating":4.7,
+        "plot":"Swamy and Anand who look exactly the same, come from different backgrounds. Under dicey circumstances Pranavi, a young and pretty girl falls in love with both of them. How will Swamy and Anand solve their problems?"
+      }
+    ],
+    "Tollywood":[
+      {"id":1,"title":"HIT 2","img":"https://m.media-amazon.com/images/M/MV5BNDA5ZTA5ZGQtM2FkMy00OTFhLTlmNzgtMjQzMjgxNmU3NjFiXkEyXkFqcGdeQXVyOTI3MzI4MzA@._V1_FMjpg_UX1000_.jpg","rating_perecentage":"95%"},
+      {"id":2,"title":"Karthikeya 2","img":"https://akamaividz2.zee5.com/image/upload/w_504,h_756,c_scale,f_webp,q_auto:eco/resources/0-0-1z5248058/portrait/1920x770bc7d2a27a8a044b29fc34784f8119188.jpg","rating_perecentage":"93%"},
+      {"id":3,"title":"Masudha","img":"https://static.toiimg.com/photo/msid-95479114/95479114.jpg?73348","rating_perecentage":"95%"},
+      {"id":4,"title":"Yashodha","img":"https://cdn.123telugu.com/content/wp-content/uploads/2022/11/Yashoda-m.jpg","rating_perecentage":"93%"},
+      {"id":5,"title":"Masharla niyogakavargam","img":"https://akamaividz2.zee5.com/image/upload/w_504,h_756,c_scale,f_webp,q_auto:eco/resources/0-0-1z5262284/portrait/1170x658withlogo6477e0228a784cbe930fef9abe49d827.jpg","rating_perecentage":"93%"}
+    ],
+    "Hollywood":[
+       
+      {"id":1,"title":"Beast","img":"https://m.media-amazon.com/images/M/MV5BMmY5MDI2YmQtNDM0YS00ZWI3LTlmM2YtYWMzNjYyOWRiZGVhXkEyXkFqcGdeQXVyMTMzODk3NDU0._V1_FMjpg_UX1000_.jpg","rating_perecentage":"95%"},
+      {"id":2,"title":"Wakanda Forever","img":"https://assets.gadgets360cdn.com/pricee/assets/product/202210/black_panther_poster_1664859044.jpg","rating_perecentage":"93%"},
+      {"id":3,"title":"Avatar","img":"https://images.fandango.com/ImageRenderer/0/0/redesign/static/img/default_poster.png/0/images/masterrepository/Fandango/228780/AVATAR_RERLS_1SHT_DIGITAL_sRGB_V7.jpg","rating_perecentage":"95%"},
+      {"id":4,"title":"Black Adam","img":"https://images.news18.com/ibnlive/uploads/2022/10/black-adam-post-credit-scene.jpg","rating_perecentage":"93%"},
+      {"id":5,"title":"Enola  Holmes2","img":"https://assets.gadgets360cdn.com/pricee/assets/product/202210/enola_holmes_2_poster_1665569900.jpg","rating_perecentage":"93%"}
+    ],
+    "Bollywood":[
+       {"id":1,"title":"Drishyam 2","img":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Drishyam_2_2022_film_poster.jpg/220px-Drishyam_2_2022_film_poster.jpg","rating_perecentage":"95%"},
+      {"id":2,"title":"Thank God","img":"https://m.media-amazon.com/images/M/MV5BMDc0NzU5MzMtNDFkMC00MTNkLWE2MzMtMmYwMzdkY2EzZDVhXkEyXkFqcGdeQXVyMTE0MTY2Mzk2._V1_FMjpg_UX1000_.jpg","rating_perecentage":"93%"},
+      {"id":3,"title":"Bhediya","img":"https://stat4.bollywoodhungama.in/wp-content/uploads/2022/10/Bhediya-2.jpg","rating_perecentage":"95%"},
+      {"id":4,"title":"RRR","img":"https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/rrr-et00094579-12-05-2022-02-26-04.jpg","rating_perecentage":"93%"},
+      {"id":5,"title":"83","img":"https://upload.wikimedia.org/wikipedia/en/6/69/83_film_poster.jpg","rating_perecentage":"93%"}
     ]
-}  
+
+}

@@ -1,0 +1,22 @@
+.popular-web-series-grid {
+  position: absolute;
+  width: 815px;
+  height: 424px;
+  top: 1995px;
+  left: 195px;
+  background: #ffffff;
+  box-shadow: 0px 0px 2px rgb(0 0 0 / 25%);
+  border-radius: 5px;
+}
+
+.popular-web-series {
+  position: absolute;
+  height: 23px;
+  left: 13.26px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #5e5f61;
+}

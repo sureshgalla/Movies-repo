@@ -1,0 +1,11 @@
+.view-more-btn {
+  position: absolute;
+  left: 45rem;
+  width: 104px;
+  height: 31px;
+  padding: 6px 14px;
+  background: #ce0000;
+  border-radius: 8px;
+  color: white;
+  border: none;
+}

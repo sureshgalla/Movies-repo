@@ -1,6 +1,6 @@
 .header {
   position: absolute;
-  width: 53%;
+  width: 8%;
   height: 476px;
   top: 111px;
   background: linear-gradient(
@@ -13,8 +13,8 @@
   );
 }
 
-img {
-  width: 63%;
+.carousel-img {
+  width: 59%;
   top: 111px;
   height: 586px;
   position: relative;
@@ -24,17 +24,12 @@ img {
 
 .header-content {
   position: absolute;
-  /* width: 153px;
-  height: 42px;
-  left: 153px;
-  top: 234px; */
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 10;
   font-size: 1rem;
   display: block;
-  /* line-height: 42px; */
 
   color: #ffffff;
 }
