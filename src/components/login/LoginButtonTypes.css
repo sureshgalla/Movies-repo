@@ -1,0 +1,53 @@
+/* login model container */
+.login-model-container {
+  display: flex;
+  position: relative;
+}
+
+/* button left side styled border */
+.styled-border {
+  position: absolute;
+  z-index: 1;
+  left: 47px;
+  top: -1.5px;
+}
+
+/* login model icons */
+.login-model-icons {
+  position: absolute;
+  left: 80px;
+  width: 19px;
+  height: 22px;
+  z-index: 1;
+  top: 7px;
+}
+
+/* login model buttons container */
+.login-model-btn-container {
+  position: relative;
+  display: flex;
+  width: 310px;
+  height: 34px;
+  left: 90px;
+  margin-bottom: 18px;
+  background: #ffffff;
+  border: 1px solid rgba(94, 95, 99, 0.5);
+  border-left-style: none;
+  border-radius: 30px;
+}
+
+/* login model buttons */
+.login-model-btn {
+  border: none;
+  background: none;
+  width: 225px;
+  height: 16px;
+  margin-left: 42.3px;
+  margin-top: 8.22px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5e5f61;
+}

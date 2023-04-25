@@ -1,9 +1,17 @@
 import { Modal } from "antd";
 import React from "react";
 import "./LoginModel.css";
-import Input from "./Input";
+import Button from "./LoginButtonTypes";
+import Google from "./google.png";
+import GMail from "./gmail.png";
+import Apple from "./apple.png";
+import indiaIcon from "./india-icon.png";
+import SubmitBtn from "./Submit-btn.png";
 
 const LoginModel = ({ openModel, handleCancel }) => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
     <Modal
       open={openModel}
@@ -22,9 +30,27 @@ const LoginModel = ({ openModel, handleCancel }) => {
           email from Movie Rating.
         </p>
       </div>
-      <Input placeholder="Continue with Google Account" />
-      <Input placeholder="Continue with G-mail Account" />
-      <Input placeholder="Continue with Apple" />
+      <div style={{ marginTop: "33px" }}>
+        <Button type="Google" icon={Google} />
+        <Button type="Google" icon={GMail} />
+        <Button type="Apple" icon={Apple} />
+      </div>
+      <div className="or">(OR)</div>
+      <div className="login-number-input-container">
+        <img src={indiaIcon} alt="" className="india-icon" />
+        <span className="cuntry-code">+91</span>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            className="number-input"
+            placeholder="Continue with mobile number"
+            onChange={(e) => e.target.value}
+          />
+          <button className="number-submit">
+            <img src={SubmitBtn} alt="" />
+          </button>
+        </form>
+      </div>
     </Modal>
   );
 };

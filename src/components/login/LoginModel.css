@@ -1,11 +1,9 @@
 .login-modal .ant-modal-content {
   box-sizing: border-box;
-
   width: 502px;
   height: 460px;
   left: 0px;
   top: 0px;
-
   background: #ffffff;
   border: 1px solid rgba(94, 95, 97, 0.5);
   border-radius: 26px;
@@ -13,7 +11,7 @@
 
 /* login modal header */
 .login-modal .login-header {
-  width: 502px;
+  width: 503px;
   height: 108px;
   background-image: url("../Model/modal-background-red.png");
   background-repeat: round;
@@ -63,4 +61,66 @@
 .login-content a {
   text-decoration: underline;
   color: black;
+}
+
+/* or */
+.or {
+  width: 24px;
+  height: 14px;
+  margin-left: 208px;
+  margin-top: 12px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5e5f61;
+}
+
+/* phone number input container */
+.login-number-input-container {
+  display: flex;
+}
+
+/* india icon */
+.india-icon {
+  width: 23px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+/* country code */
+.cuntry-code {
+  width: 24px;
+  height: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #5e5f61;
+  margin-left: 11px;
+  margin-top: 23px;
+}
+
+/* number input */
+.number-input {
+  border: none;
+  width: 275px;
+  margin-left: 11px;
+  margin-top: 22px;
+  border-bottom: 0.8px solid rgba(94, 95, 97, 0.5);
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(94, 95, 97, 0.5);
+  padding-bottom: 3px;
+}
+
+/* arrow btn for submit number button */
+.number-submit {
+  border: none;
+  background: none;
+  margin-left: -35px;
 }
