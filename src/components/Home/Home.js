@@ -32,7 +32,7 @@ const Home = () => {
 
   return (
     <div>
-      <Navbar color={false} />
+      <Navbar color={false} home={true} />
       <header>
         <Header movie={movie} />
       </header>

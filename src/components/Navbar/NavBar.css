@@ -93,7 +93,7 @@
 /* movie navabr styles */
 /* movie navbar background color */
 .red-navbar {
-  position: fixed;
+  position: absolute;
   top: 0px;
   height: 111px;
   width: 94.9375rem;

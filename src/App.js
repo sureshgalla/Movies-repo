@@ -10,6 +10,7 @@ import Shows from "./components/shows/Shows";
 import OpeningThisWeek from "./components/movies/opening-this-week/OpeningThisWeek";
 import UpComeingMovies from "./components/movies/up-coming-movies/UpComeingMovies";
 import Languages from "./components/languages/Languages";
+import RedHome from "./components/redHome/Home";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
               <Route path="/opening-this-week" element={<OpeningThisWeek />} />
               <Route path="/up-comeing-movies" element={<UpComeingMovies />} />
               <Route path="/languages" element={<Languages />} />
+              <Route path="/home" element={<RedHome />} />
             </Routes>
           </Router>
         </div>

@@ -7,7 +7,7 @@ import SocialMediaIcons from "../socilaMediaIcons/SocialMediaIcons";
 import { NavLink } from "react-router-dom";
 import LoginModel from "../login/LoginModel";
 
-const Navbar = ({ color }) => {
+const Navbar = ({ color, home }) => {
   const [login, setLogin] = useState(false);
   const handleLogin = () => {
     setLogin(true);
@@ -30,7 +30,11 @@ const Navbar = ({ color }) => {
         <SearchOutlined className="search-icon" />
       </button>
       <div className={color ? "movie-links" : "links"}>
-        <NavLink to="/" activeclassname="active" className="link-style">
+        <NavLink
+          to={home ? "/" : "/home"}
+          activeclassname="active"
+          className="link-style"
+        >
           Home
         </NavLink>
         <Dropdown overlay={<MoviesDropDown />} trigger={["click"]}>

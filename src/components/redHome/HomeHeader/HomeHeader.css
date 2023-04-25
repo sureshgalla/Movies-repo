@@ -1,0 +1,18 @@
+/* img container */
+.home-header-img-container {
+  margin-top: 111px;
+  width: 1143px;
+  height: 438px;
+}
+
+/* arrow icon */
+.arrow-icon {
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  color: white;
+  position: absolute;
+  top: 300px;
+  right: 200px;
+}
