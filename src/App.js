@@ -11,25 +11,28 @@ import OpeningThisWeek from "./components/movies/opening-this-week/OpeningThisWe
 import UpComeingMovies from "./components/movies/up-coming-movies/UpComeingMovies";
 import Languages from "./components/languages/Languages";
 import RedHome from "./components/redHome/Home";
+import DemoPage from './components/authentication/Demopage'
 
 function App() {
+
   return (
     <Provider store={store}>
       <MovieProvider>
         <div className="App">
           <Router>
             <Routes>
-              <Route path="/" element={<Home />} />
+            <Route exact path="/" element={<Home />} /> 
               <Route
-                path="/movies-in-theaters"
+                exact path="/movies-in-theaters"
                 element={<MoviesInTheaters />}
               />
-              <Route path="/movies-in-home" element={<MoviesInHome />} />
-              <Route path="/shows" element={<Shows />} />
-              <Route path="/opening-this-week" element={<OpeningThisWeek />} />
-              <Route path="/up-comeing-movies" element={<UpComeingMovies />} />
-              <Route path="/languages" element={<Languages />} />
-              <Route path="/home" element={<RedHome />} />
+              <Route exact path="/movies-in-home" element={<MoviesInHome />} />
+              <Route exact path="/shows" element={<Shows />} />
+              <Route exact path="/opening-this-week" element={<OpeningThisWeek />} />
+              <Route exact path="/up-comeing-movies" element={<UpComeingMovies />} />
+              <Route exact path="/languages" element={<Languages />} />
+              <Route exact path="/home" element={<RedHome />} />
+              <Route exact path="/demopage" element={<DemoPage />} />
             </Routes>
           </Router>
         </div>
